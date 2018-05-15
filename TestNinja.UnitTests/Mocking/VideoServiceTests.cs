@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Moq;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,14 +10,24 @@ using TestNinja.Mocking;
 namespace TestNinja.UnitTests.Mocking
 {
     [TestFixture]
-    class VideoServiceTests
+    public class VideoServiceTests
     {
+        private Mock<IFileReader> _fileReader;
+        private VideoService _videoService;
+
+        [SetUp]
+        public void SetUp()
+        {
+            _fileReader = new Mock<IFileReader>();
+            _videoService = new VideoService(_fileReader.Object);
+        }
+
         [Test]
         public void ReadVideoTitle_EmptyFile_ReturnError()
         {
-            var service = new VideoService(new FakeFileReader());            
+            _fileReader.Setup(fr => fr.Read(It.IsAny<string>())).Returns("");
 
-            var result = service.ReadVideoTitle();
+            var result = _videoService.ReadVideoTitle();
 
             Assert.That(result, Does.Contain("error").IgnoreCase);
         }

@@ -28,3 +28,12 @@ C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitT
 C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.csproj.CopyComplete
 C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.dll
 C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\obj\Debug\TestNinja.UnitTests.pdb
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.dll
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.dll
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.dll
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Castle.Core.xml
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.pdb
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\Moq.xml
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Comarch\Desktop\unittests\source-code-starter\TestNinja\TestNinja.UnitTests\bin\Debug\System.ValueTuple.xml
